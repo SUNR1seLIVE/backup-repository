@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/ui_elements.css" />
+    <link rel="stylesheet" href="assets/css/section_my_projects.css" />
+  </head>
+  <body>
+    <div id="page-preloader" class="preloader">
+      <div class="loader-container">
+        <div class="loader">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <span id="load-perc" class="load-text">0%</span>
+      </div>
+    </div>
+
+    <div class="bg-color">
+      <div class="container" style="display: none;">
+        <header>
+          <div class="logo">
+            <a href="index.html"
+              ><span class="logo-symbol"><</span>
+              <span class="logo-text">SUNR1se</span>
+              <span class="logo-symbol">/></span>
+            </a>
+          </div>
+
+          <nav class="navigation">
+            <ul class="nav-container">
+              <li>
+                <a href="index.html"><span>Home</span></a>
+              </li>
+              <li>
+                <a href="#"><span>My projects</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Test tasks</span></a>
+                <ul class="nav-nav-container">
+                  <li>
+                    <a href="https://sunr1selive.github.io/TestWeb/"
+                      >Тестовое задание №1</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://sunr1selive.github.io/"
+                      >Тестовое задание №2</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://sunr1selive.github.io/-web-development/"
+                      >Тестовое задание №3</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://sunr1selive.github.io/web1/"
+                      >Тестовое задание №4</a
+                    >
+                  </li>
+                  <li><a href="#">Тестовое задание №5</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><span>About me...</span></a>
+              </li>
+              <li>
+                <a href="#"><span>Contacts</span></a>
+              </li>
+              <li>
+                <button class="btn btn_lang">
+                  <span>En</span>
+                </button>
+              </li>
+              <li>
+                <button id="burg_btn" class="btn btn_burg" onclick="btnClickActiv()">
+                  <span class="burg_line"></span>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+
+      <div class="container" style="display: none;">
+        <section class="home">
+          <h2 class="home-title">Web Developer</h2>
+          <p class="home-text">
+            Hello, My name is <span class="my-title">Alexander</span> and i'm
+          </p>
+          <p class="home-text">
+            <sapn class="my-title">Front-end Developer</sapn> from Russia
+          </p>
+        </section>
+      </div>
+
+      <div class="container">
+          <section class="my-projects">
+            <div class="my-projects-title">
+              <h2>My projects</h2>
+            </div>            
+            
+            <div class="container_priject">
+              <!-- <img class="my_photo" src="assets/img/Home_index/web_1.png" alt="" /> -->
+            </div>
+            
+          </section>
+        </div>
+
+      <div class="container">
+        <section class="about-me">
+          <img class="my_photo" src="assets/img/Home_index/photo.jpg" alt="" />
+          <h2>Обо мне</h2>
+        </section>
+      </div>
+
+      <div class="container">
+        <section class="contacts">
+          <h2>Контакты</h2>
+        </section>
+      </div>
+
+      <footer></footer>
+    </div>
+
+    <script src="assets/js/preloader.js"></script>
+    <script src="assets/js/ui_elements.js"></script>
+  </body>
+</html>
